@@ -1,3 +1,4 @@
 cd C:\ ?show all files in c
 ls -Force C:/ ?show hidden files in C
 get-Help ls ?
+cd ..\Desktop or cd ~\Desktop
