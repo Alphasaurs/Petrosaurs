@@ -3,3 +3,6 @@ ls -Force C:/ ?show hidden files in C
 get-Help ls ?
 cd ..\Desktop or cd ~\Desktop
 use tab completion
+space name folder: 
+mkdir "my java" 
+mkdir my` java
