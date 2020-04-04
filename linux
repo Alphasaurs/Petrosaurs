@@ -1,3 +1,4 @@
 man ls ?just like ls --help cmd but it show in a good manner
 ls -l ?additional information of directories with folder 
 ls -la or ls -l-a ?all hidden files also
+spaced folder name:mkdir my\java or mkdir "my java"
