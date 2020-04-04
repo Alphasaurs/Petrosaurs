@@ -6,3 +6,5 @@ use tab completion
 space name folder: 
 mkdir "my java" 
 mkdir my` java
+CTRL+R ?search
+clear
