@@ -1,3 +1,20 @@
 Absolute path-is one that starts from the main directory.
 Relative path-is one that starts from the current directory.
 pwd-print working directory
+/ is the root directory
+/bin/ and /usr/bin/ store user commands.
+/boot/ contains files used for system startup including the kernel.
+/dev/ contains device files
+/etc/ is where configuration files and directories are located.
+/home/ is the default location for users‟ home directories.
+/initrd/ is used to load required device modules and mount the initrd.img image file during system startup.
+/lib/ and /usr/lib/ hold library files used by programs in /bin/ and /sbin/.
+/lost+found/ holds orphaned files (files without names) found by fsck
+/mnt/ holds the mount points for file systems that were mounted after boot.
+/opt/ is used primarily for installation and unintallation of third-party software. Holds optional files and programs.
+/proc/ is a virtual directory (not actually stored on the disk) which holds system information required by certain programs.
+/root/ is the home directory of the superuser "root"
+/sbin/ and /usr/sbin/ store system commands.
+/tmp/ is the system temporary directory. All users have read+write access to /tmp/.
+/usr/ contains files related to users such as application files and related library files ("usr" is an acronym that stands for UNIX system resources).
+/var/ (as in "variable") holds files and directories that are constantly changing such as printer spools and log files.
