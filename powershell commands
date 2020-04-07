@@ -15,3 +15,6 @@ cp directoryname filelocation -recurse -verbose ?? all data inside will copy als
 cp -r directoryname filelocation ??in linux above same command eg.cp *.png ~/Desktop
 mv filename filename ??renaming
 mv filename location ??moving
+rm filename ?? rm will delete file permanently like shift+DEL
+rm filename -force ?? force delete for system file
+
