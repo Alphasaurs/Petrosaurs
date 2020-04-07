@@ -9,3 +9,4 @@ mkdir my` java
 CTRL+R ?search
 clear
 cp *.jpg D:\programming\cpp ?? copyall .jpg in file location
+cp directoryname filelocation ?? only name will be there
