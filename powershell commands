@@ -18,3 +18,4 @@ mv filename location ??moving
 rm filename ?? rm will delete file permanently like shift+DEL
 rm filename -force ?? force delete for system file
 
+more filename ?? to display large file in terminal
