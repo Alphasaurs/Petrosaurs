@@ -12,4 +12,4 @@ cp *.jpg D:\programming\cpp ?? copyall .jpg in file location
 cp directoryname filelocation ?? only name will be there
 cp directoryname filelocation -recurse ??all data inside will copy 
 cp directoryname filelocation -recurse -verbose ?? all data inside will copy also shown on cmd through verbose
-cp -r directoryname filelocation ??in linux above same command
+cp -r directoryname filelocation ??in linux above same command eg.cp *.png ~/Desktop
