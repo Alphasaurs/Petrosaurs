@@ -40,3 +40,5 @@ echo dog > animal.txt ?create file if it is not there(> is riderector)
 echo labra > animal.txt ?it will append text at the end of file
 cat animal.txt | Select-String lab ?? it will show letter with lab (| is pipeline)
 cat animal.txt | Select-String lab > animal2.txt ?? it will show letter with lab and save in anotther file
+rm secure_file 2> errors.txt ??it will redirect error to .txt file (2 is for stderror 1 is for stdoutput)
+rm secure_file 2> $null ??redirect file error to black hole i.e.anything
