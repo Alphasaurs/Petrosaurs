@@ -42,4 +42,4 @@ cat animal.txt | Select-String lab ?? it will show letter with lab (| is pipelin
 cat animal.txt | Select-String lab > animal2.txt ?? it will show letter with lab and save in anotther file
 rm secure_file 2> errors.txt ??it will redirect error to .txt file (2> is for stderror 1 is for stdoutput)
 rm secure_file 2> $null ??redirect file error to black hole i.e.anything
-NOTE:-The < redirector is used for stdin and The > redirector is used for stdout.
+NOTE:-The < redirector is used for stdin and The > redirector is used for stdout.eg cat < cool.txt (linux)
