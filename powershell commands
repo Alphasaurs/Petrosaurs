@@ -37,3 +37,4 @@ Selct-String word *.txt ?? pattern matching so many search in different files
 NOTE-use grep word *.text
 ///////////////////////////////////////////////////////
 echo dog > animal.txt ?create file if it is not there
+echo labra > animal.txt ?it will append text at the end of file
