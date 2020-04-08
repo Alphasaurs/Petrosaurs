@@ -25,5 +25,8 @@ NOTE-head filename ??same but for linux first 10 tail as viceversa
 ALIAS concept
 Get-help ls ?? display ls allias i.e Get-Childitem
 dir /? ??for cmd it is used same as above
-
+////////////////////////////////////////////////////////////////////
+searching fies 
+ls -Recurse -Filter *.cpp
+ls "filelocation" -Recurse -Filter *.cpp
 
