@@ -38,3 +38,4 @@ NOTE-use grep word *.text
 ///////////////////////////////////////////////////////
 echo dog > animal.txt ?create file if it is not there(> is riderector)
 echo labra > animal.txt ?it will append text at the end of file
+cat animal.txt | Select-String lab ?? it will show letter with lab
