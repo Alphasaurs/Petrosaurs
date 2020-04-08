@@ -21,4 +21,9 @@ more filename ?? to display large file in terminal(ENTER-for next line,SPACE -ne
 NOTE-less filename ?? we use same command in linux but use less(g-for begining,G-end,Q-exit,/wordname-search)
 cat filename -HEAD 10; ?? display first 10 use tail viceversa
 NOTE-head filename ??same but for linux first 10 tail as viceversa
+///////////////////////////////////////////////////////////////////////////////////
+ALIAS concept
+Get-help ls ?? display ls allias i.e Get-Childitem
+dir /? ??for cmd it is used same as above
+
 
