@@ -29,4 +29,10 @@ dir /? ??for cmd it is used same as above
 searching fies 
 ls -Recurse -Filter *.cpp
 ls "filelocation" -Recurse -Filter *.cpp
+Searching words in files
+SLS(Select-String command)
+Select-String word fiename ??regular expressions eg Select-String cool name.txt
+NOTE-use grep in linux as grep word filename
+Selct-String word *.txt ?? pattern matching so many search in different files
+NOTE-use grep word *.text
 
