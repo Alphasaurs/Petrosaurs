@@ -35,4 +35,5 @@ Select-String word fiename ??regular expressions eg Select-String cool name.txt
 NOTE-use grep in linux as grep word filename
 Selct-String word *.txt ?? pattern matching so many search in different files
 NOTE-use grep word *.text
-
+///////////////////////////////////////////////////////
+echo dog > animal.txt ?create file if it is not there
