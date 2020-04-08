@@ -18,4 +18,7 @@ mv filename location ??moving
 rm filename ?? rm will delete file permanently like shift+DEL
 rm filename -force ?? force delete for system file
 more filename ?? to display large file in terminal(ENTER-for next line,SPACE -next page, Q-quit more )
+NOTE-less filename ?? we use same command in linux but use less(g-for begining,G-end,Q-exit,/wordname-search)
 cat filename -HEAD 10; ?? display first 10 use tail viceversa
+NOTE-head filename ??same but for linux first 10 tail as viceversa
+
