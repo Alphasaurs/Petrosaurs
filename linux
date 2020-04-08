@@ -1,4 +1,8 @@
 man ls ?just like ls --help cmd but it show in a good manner
 ls -l ?additional information of directories with folder 
 ls -la or ls -l-a ?all hidden files also
-spaced folder name:mkdir my\java or mkdir "my java" or mkdir 'my java'
+mkdir my\java or mkdir "my java" or mkdir 'my java' or mkkdir my/ java ?? spaced folder name
+nano cool.txt ?? ^k-caret K i.e CTRL+K
+Emacs ??the extensible, customizable, self-documenting real-time display editor,
+NOTE-learn emacs and vim as they are essential
+
