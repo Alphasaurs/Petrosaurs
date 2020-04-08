@@ -18,3 +18,10 @@ pwd-print working directory
 /tmp/ is the system temporary directory. All users have read+write access to /tmp/.
 /usr/ contains files related to users such as application files and related library files ("usr" is an acronym that stands for UNIX system resources).
 /var/ (as in "variable") holds files and directories that are constantly changing such as printer spools and log files.
+//////////////////
+FINDING WORD IN DIFFERENT FILES
+METHOD 1:
+start>>indexing>>users>>advanced>>file type>>index properties and file content
+METHOD 2:SLS(select-string command)
+
+METHOD 3:
