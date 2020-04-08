@@ -22,6 +22,11 @@ pwd-print working directory
 FINDING WORD IN DIFFERENT FILES
 METHOD 1:
 start>>indexing>>users>>advanced>>file type>>index properties and file content
-METHOD 2:SLS(select-string command)
+
+METHOD 2:SLS(Select-String command)
+Select-String word fiename ??regular expressions eg Select-String cool name.txt
+Selct-String word *.txt ?? pattern matching so many search in different files
 
 METHOD 3:
+Notepad++ use CTRL+SHIFT+F
+////////////////////////////////////////////////
