@@ -8,3 +8,11 @@ NOTE-learn emacs and vim as they are essential
 touch filename ??make new file
  mv /home/user/Images/Vacation.JPG . ??this command will move .jpg to current directory(. is used for that)
 rm -r directoryname ??delete non empty directory
+////////////////////////
+NOTE - grep flags
+-r: search recursively
+-w: match the whole word
+-n: only in line number
+-e: match pattern
+--include and --exclude: include and exclude files in the search
+--include-dir and --exclude-dir: include or exclude directories in the search
