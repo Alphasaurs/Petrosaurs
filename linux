@@ -5,4 +5,4 @@ mkdir my\java or mkdir "my java" or mkdir 'my java' or mkkdir my/ java ?? spaced
 nano cool.txt ?? ^k-caret K i.e CTRL+K
 Emacs ??the extensible, customizable, self-documenting real-time display editor,
 NOTE-learn emacs and vim as they are essential
-
+touch filename ??make new file
