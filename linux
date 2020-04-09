@@ -6,3 +6,4 @@ nano cool.txt ?? ^k-caret K i.e CTRL+K
 Emacs ??the extensible, customizable, self-documenting real-time display editor,
 NOTE-learn emacs and vim as they are essential
 touch filename ??make new file
+ mv /home/user/Images/Vacation.JPG . ??this command will move .jpg to current directory(. is used for that)
