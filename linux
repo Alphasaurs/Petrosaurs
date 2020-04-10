@@ -16,3 +16,6 @@ NOTE - grep flags
 -e: match pattern
 --include and --exclude: include and exclude files in the search
 --include-dir and --exclude-dir: include or exclude directories in the search
+//////////////////////////////////////////
+COMPUTER MANAGEMENT
+the name of the first user that gets created on a Linux machine, the OS superuser--root
