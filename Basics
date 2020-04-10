@@ -38,6 +38,10 @@ UAC (user access control)- A feature in windows that prevents unauthorized chang
 /////////////////////////////////////////////
 mobile operating system
 SSO-single sign on
+difference between imap and pop3:-
+mail is send through SMTP (simple mail transfer protocol),POP3 post office protocol message is stored in harddisk or phone storage but not on server
+IMAP internet message access protocol message is stored on server so if you want to use more than 1 device use IMAP.
+//////////////////////////////////////////////
 
 
 
