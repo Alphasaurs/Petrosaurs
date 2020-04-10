@@ -49,5 +49,7 @@ COMPUTER MANAGEMENT
  Get-localuser ??display user
  get-localgroup ??display groups
  get-localgroupmember Administrators
+////////////////////////////////////////////////////////
 
+ 
 
