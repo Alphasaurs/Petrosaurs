@@ -30,7 +30,7 @@ Selct-String word *.txt ?? pattern matching so many search in different files
 METHOD 3:
 Notepad++ use CTRL+SHIFT+F
 ////////////////////////////////////////////////
-COMPUTER MANAGEMENT   [NOTE-this is not available in Windows 10 Home Edition so use netplwiz or use powershell]
+COMPUTER MANAGEMENT   [NOTE-this is not available in Windows 10 Home Edition so use netplwiz or use powershell,to enable User Configuration -> Administrative Templates -> Windows Components -> Microsoft Management Console -> Restricted/Permitted snap-ins]
 in this we will define permission to various user and other settings as well.
 start>>computer management
 Window Domain- is a network of computers, users, files, et cetera, that are added to a central database.
