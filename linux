@@ -19,3 +19,5 @@ NOTE - grep flags
 //////////////////////////////////////////
 COMPUTER MANAGEMENT
 the name of the first user that gets created on a Linux machine, the OS superuser--root
+sudo su - ??running root user command
+sudo cat /etc/ sudoers ?? running single commmand
