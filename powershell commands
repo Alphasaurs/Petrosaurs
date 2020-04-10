@@ -45,3 +45,9 @@ rm secure_file 2> errors.txt ??it will redirect error to .txt file (2> is for st
 rm secure_file 2> $null ??redirect file error to $null black hole (/dev/null in linux) i.e.anything
 NOTE:-The < redirector is used for stdin and The > redirector is used for stdout.eg cat < cool.txt (linux)
 ////////////////////////////////////////////////////////////////
+COMPUTER MANAGEMENT
+ Get-localuser ??display user
+ get-localgroup ??display groups
+ get-localgroupmember Administrators
+
+
