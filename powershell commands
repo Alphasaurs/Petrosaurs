@@ -50,6 +50,19 @@ COMPUTER MANAGEMENT
  get-localgroup ??display groups
  get-localgroupmember Administrators
 ////////////////////////////////////////////////////////
+net user rusto 'writepassword'
+net user rusto * ??use this approach
+NOTE-passwd rusto ??same cmd for linux password store in /etc/shadow
+net user rusto /logonpasswordchg:yes ??make password change for the user
+NOTE-sudo passwd rusto -e ??same cmd for linux
+net user cool * /add ??it will add new user and you will set password
+NOTE-sudo useradd cool ??for linux
+net user cool /logonpasswordchg:yes ??so that cool can change his new password
+net user cool2 wow /add /logonpasswordchg:yes ??it will add new user with password wow and user will able to changeit
+net user cool /del ??it will delete 
+NOTE-sudo userdel cool
+remove-localuser cool2 ??it will remove
+//////////////////////////////////////////////////////////////
 
  
 
