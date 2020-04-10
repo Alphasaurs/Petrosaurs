@@ -63,6 +63,8 @@ net user cool /del ??it will delete
 NOTE-sudo userdel cool
 remove-localuser cool2 ??it will remove
 //////////////////////////////////////////////////////////////
+ICACLS (improved change access control list)
+icacls c:\Users\rusto\Desktop\ ??use to see permission of files
 
  
 
