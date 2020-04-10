@@ -19,5 +19,12 @@ NOTE - grep flags
 //////////////////////////////////////////
 COMPUTER MANAGEMENT
 the name of the first user that gets created on a Linux machine, the OS superuser--root
-sudo su - ??running root user command
+sudo su - ??running root user command su is substitute user but dont always be in there
 sudo cat /etc/ sudoers ?? running single commmand
+/etc/group file ?? to see group user
+->sudo:x:27:cindy ??there are 4 fields:sudo is group name,x is group encrypted password,27 is group id,cindy is user
+/etc/password ?? to see user
+root:x:0:0:root:/root/:/bin/bash ?? root is user ,x is password ,0:0 is userid,root is user
+
+
+
