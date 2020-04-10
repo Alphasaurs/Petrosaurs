@@ -42,6 +42,13 @@ difference between imap and pop3:-
 mail is send through SMTP (simple mail transfer protocol),POP3 post office protocol message is stored in harddisk or phone storage but not on server
 IMAP internet message access protocol message is stored on server so if you want to use more than 1 device use IMAP.
 //////////////////////////////////////////////
+FILE ,DIRECTORY sharing
+In Windows, files and directory permissions are assigned using Access Control Lists or ACLs. Specifically, we're going to work with Discretionary Access Control Lists or DACLs. 
+Windows files and folders can also have System Access Control Lists or SACLs assigned to them. SACLs are used to tell windows that it should use an event log to make a note of every time someone accesses a file or folder. 
+List folder contents is an alias for Read and Execute on a directory.
+Modify, the Modify permission is an umbrella permission that include read, execute and write.
+Full control, a user or group with full control can do anything they want to the file. It includes all of the permissions of Modify, and adds the ability to take ownership of a file and change its ACLs. 
+
 
 
 
