@@ -27,7 +27,11 @@ sudo cat /etc/ sudoers ?? running single commmand
 root:x:0:0:root:/root/:/bin/bash ?? root is user ,x is password ,0:0 is userid,root is user
 /////////////////////////////////////////////
 FILE PERMISSION
-ls -
+ls -l ~/directory
+>>drwxr-xr-x 5 rusto rusto 4096??there are 10 bits first d=directory,r-read,w=write,x=execute
+ls -l ~/file
+>>-rwxr-xr-x 5 rusto rusto 4096
+
 
 
 
