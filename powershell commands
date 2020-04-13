@@ -52,7 +52,7 @@ COMPUTER MANAGEMENT
 ////////////////////////////////////////////////////////
 net user rusto 'writepassword'
 net user rusto * ??use this approach
-NOTE-passwd rusto ??same cmd for linux password store in /etc/shadow
+NOTE-sudo passwd rusto ??same cmd for linux password store in /etc/shadow
 net user rusto /logonpasswordchg:yes ??make password change for the user
 NOTE-sudo passwd rusto -e ??same cmd for linux
 net user cool * /add ??it will add new user and you will set password
