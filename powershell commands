@@ -63,8 +63,12 @@ net user cool /del ??it will delete
 NOTE-sudo userdel cool
 remove-localuser cool2 ??it will remove
 //////////////////////////////////////////////////////////////
+MODIFYING PERMISSION
 ICACLS (improved change access control list)
 icacls c:\Users\rusto\Desktop\ ??use to see permission of files
+icacls 'c:my cool folder' /grant 'Everyone:(OI)(CI)(R)' ??all the user will able to only read folder oi=object inherit ci=container inherit
+icacls "c:my cool folder" /grant Everyone:(OI)(CI)(R) ??this is same cmd but only run in cmd.exe
+icacls 'c:my cool folder' /grant 'Authenticated Users:(OI)(CI)(R)' ?? this cmd will not give permission to guest user
 
- 
+
 
