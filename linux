@@ -27,6 +27,7 @@ sudo cat /etc/ sudoers ?? running single commmand
 root:x:0:0:root:/root/:/bin/bash ?? root is user ,x is password ,0:0 is userid,root is user
 /////////////////////////////////////////////
 FILE PERMISSION
+ls -
 
 
 
