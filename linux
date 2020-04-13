@@ -28,9 +28,9 @@ root:x:0:0:root:/root/:/bin/bash ?? root is user ,x is password ,0:0 is userid,r
 /////////////////////////////////////////////
 FILE PERMISSION
 ls -l ~/directory
->>drwxr-xr-x 5 rusto rusto 4096??there are 10 bits first d=directory,r-read,w=write,x=execute
+>>drwxr-xr-x 5 rusto rusto 4096??there are 10 bits first d=directory, other 9 are divided into three parts which is rwx :r-read,w=write,x=execute,-=this function is disable
 ls -l ~/file
->>-rwxr-xr-x 5 rusto rusto 4096
+>>-rwxr-xr-x 5 rusto rusto 4096?? same as above but first - is file
 
 
 
