@@ -33,7 +33,7 @@ ls -l ~/file
 >>-rwxr-xr-x 5 rusto rusto 4096?? same as above but first - is file
 /////////////////////////////////////////////
 LINUX MODIFYING PERMISSION
-NOTE: u=owner,g=group,o=other user
+NOTE: u=owner,g=group,o=other user,chmod=change mode
 
 
 
