@@ -69,6 +69,8 @@ icacls c:\Users\rusto\Desktop\ ??use to see permission of files
 icacls 'c:my cool folder' /grant 'Everyone:(OI)(CI)(R)' ??all the user will able to only read folder oi=object inherit ci=container inherit
 icacls "c:my cool folder" /grant Everyone:(OI)(CI)(R) ??this is same cmd but only run in cmd.exe
 icacls 'c:my cool folder' /grant 'Authenticated Users:(OI)(CI)(R)' ?? this cmd will not give permission to guest user
+icacls 'c:my cool folder' /remove Everyone ??remove acess 
+//////////////////////////////////////////
 
 
 
