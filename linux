@@ -34,6 +34,23 @@ ls -l ~/file
 /////////////////////////////////////////////
 LINUX MODIFYING PERMISSION
 NOTE: u=owner,g=group,o=other user,chmod=change mode
+this are the symbolic formats for LINUX MODIFYING PERMISSION
+chmod u+x filename ??this will add execute permission for owner
+chmod g+x filename ??this will add execute permission for group
+chmod o+x filename ??this will add execute permission for other
+chmod u-x filename ??above vice versa
+chmod u+rx filename ??this will add execute and read permission
+chmod ugo+r filename ?? ugo is owner,group,other user will give read permission
+
+this are the numerical representation for LINUX MODIFYING PERMISSION it is faster than previous one
+4=r,2=w,1=x
+chmod 754 filename ??
+>>-rwx-xr--1 cool cool_group 0 oct  ?? 7 denotes rwx for owner ,5 denotes xr for group ,4 denotes  r for other
+
+sudo chown rusto fileneame ?? change owner permission from cool to rusto 
+sudo chgrp anothrgroup filename ?? change group permission from cool to anothrgroup
+
+
 
 
 
