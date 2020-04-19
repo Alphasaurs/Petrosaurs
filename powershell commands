@@ -73,7 +73,9 @@ icacls 'c:my cool folder' /remove Everyone ??remove acess
 
 icaclas c:my cool foler' /grant "cool:r" ??grant cool read permission
 icaclas c:my cool foler' /grant "cool:w" ??grant cool write permission
+icaclas c:my cool foler' /grant "cool:rw" ??grant cool read and write permission together
 icaclas c:my cool foler' /deny "cool:w" ??remove cool write permission
+
 icaclas c:my cool foler' /remove "cool" ??remove cool all permission
 
 
