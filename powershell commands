@@ -70,6 +70,13 @@ icacls 'c:my cool folder' /grant 'Everyone:(OI)(CI)(R)' ??all the user will able
 icacls "c:my cool folder" /grant Everyone:(OI)(CI)(R) ??this is same cmd but only run in cmd.exe
 icacls 'c:my cool folder' /grant 'Authenticated Users:(OI)(CI)(R)' ?? this cmd will not give permission to guest user
 icacls 'c:my cool folder' /remove Everyone ??remove acess 
+
+icaclas c:my cool foler' /grant "cool:r" ??grant cool read permission
+icaclas c:my cool foler' /grant "cool:w" ??grant cool write permission
+icaclas c:my cool foler' /deny "cool:w" ??remove cool write permission
+icaclas c:my cool foler' /remove "cool" ??remove cool all permission
+
+
 //////////////////////////////////////////
 
 
