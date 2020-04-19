@@ -37,12 +37,13 @@ ls -l ~/file
 LINUX MODIFYING PERMISSION
 NOTE: u=owner,g=group,o=other user,chmod=change mode
 this are the symbolic formats for LINUX MODIFYING PERMISSION
-chmod u+x filename ??this will add execute permission for owner
-chmod g+x filename ??this will add execute permission for group
-chmod o+x filename ??this will add execute permission for other
-chmod u-x filename ??above vice versa
-chmod u+rx filename ??this will add execute and read permission
-chmod ugo+r filename ?? ugo is owner,group,other user will give read permission
+sudo chmod u+x filename ??this will add execute permission for owner
+sudo chmod g+x filename ??this will add execute permission for group
+sudo chmod o+x filename ??this will add execute permission for other
+sudo chmod u-x filename ??above vice versa
+sudo chmod u+rx filename ??this will add execute and read permission
+sudo chmod ugo+r filename ?? ugo is owner,group,other user will give read permission
+sudo chmod a+r not_so_important_document ??This adds read permission to everyone (owner, group, and other).
 
 this are the numerical representation for LINUX MODIFYING PERMISSION it is faster than previous one
 4=r,2=w,1=x
