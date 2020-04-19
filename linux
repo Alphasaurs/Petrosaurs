@@ -49,6 +49,20 @@ chmod 754 filename ??
 
 sudo chown rusto fileneame ?? change owner permission from cool to rusto 
 sudo chgrp anothrgroup filename ?? change group permission from cool to anothrgroup
+///////////////////////////////
+linux special permission
+SETUID-special permission bit is used to allow a file to be run as the owner of the file
+sudo chmod u+s filename ?? s denotes setuid
+>>-rwsr-xr-x 1 cool
+sudo 4755 filename ?? same command as above but numerical way
+SETGID-special permission bit is used to allow a file to be run as the whole group user of the file
+sudo chmod g+s filename 
+>>-rwsr-xr-x 1 cool group
+sudo 2755 filename ?? same command as above but numerical way
+sticky bit allows the file to be modified by anyone, but only removed by the owner or root.
+sudo chmod +t filename ?? t denotes sticky bit
+sudo 1755 filename ?? same command as above but numerical way
+
 
 
 
