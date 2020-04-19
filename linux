@@ -51,7 +51,10 @@ chmod 754 filename ??
 
 sudo chown rusto fileneame ?? change owner permission from cool to rusto 
 sudo chgrp anothrgroup filename ?? change group permission from cool to anothrgroup
+sudo chmod 720 secret_folder/ ??this mean chmod is applied on a directory 7 permission (rwx) given to owner,2 permission(w) given to group , 0 no permission to other user
+
 ///////////////////////////////
+When using chmod on a directory, files within that directory are not affected. 
 linux special permission
 SETUID-special permission bit is used to allow a file to be run as the owner of the file
 sudo chmod u+s filename ?? s denotes setuid
@@ -64,6 +67,7 @@ sudo 2755 filename ?? same command as above but numerical way
 sticky bit allows the file to be modified by anyone, but only removed by the owner or root.
 sudo chmod +t filename ?? t denotes sticky bit
 sudo 1755 filename ?? same command as above but numerical way
+
 
 
 
