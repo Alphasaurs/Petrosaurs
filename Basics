@@ -53,6 +53,7 @@ WINDOWS SOFTWARE PACKAGE -.exe,.msi,.appx
 .MSI(microsoft install package)-A Microsoft install package or msi is used to guide a program called the Windows Installer in the installation, maintenance, and removal of programs on the Windows operating system.
 software.exe ?? just write to install software from command line
 DLL-dynamic link library
+Chocolatey-it's a place where all kinds of windows software packages live
 
 
 
