@@ -74,6 +74,14 @@ linux software package -.rpm for red hat,.deb for ubuntu
  sudo dpkg -i atom-amd64.deb ?? this will install
  sudo dpkg -r atom-amd64.deb ?? this will remove
   sudo dpkg -l ?? this will list
+  ///////////////////
+  tar -czvf name-of-archive.tar.gz /path/to/directory-or-file ??create a zip
+  -c: Create an archive.
+-z: Compress the archive with gzip.
+-v: Display progress in the terminal while creating the archive, also known as “verbose” mode. The v is always optional in these commands, but it’s helpful.
+-f: Allows you to specify the filename of the archive.
+
+tar -xzvf archive.tar.gz ?? unzip
   
 
 
