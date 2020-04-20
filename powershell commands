@@ -80,6 +80,7 @@ icaclas c:my cool foler' /remove "cool" ??remove cool all permission
 
 
 //////////////////////////////////////////
+compress-archive -path D:\programming\cpp d:\yellow.zip   ?? zip file cpp to yellow.zip in other location
 
 
 
