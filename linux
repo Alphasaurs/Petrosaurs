@@ -69,7 +69,12 @@ sudo 2755 filename ?? same command as above but numerical way
 sticky bit allows the file to be modified by anyone, but only removed by the owner or root.
 sudo chmod +t filename ?? t denotes sticky bit
 sudo 1755 filename ?? same command as above but numerical way
-
+//////////////////////
+linux software package -.rpm for red hat,.deb for ubuntu
+ sudo dpkg -i atom-amd64.deb ?? this will install
+ sudo dpkg -r atom-amd64.deb ?? this will remove
+  sudo dpkg -l ?? this will list
+  
 
 
 
