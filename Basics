@@ -48,7 +48,9 @@ Windows files and folders can also have System Access Control Lists or SACLs ass
 List folder contents is an alias for Read and Execute on a directory.
 Modify, the Modify permission is an umbrella permission that include read, execute and write.
 Full control, a user or group with full control can do anything they want to the file. It includes all of the permissions of Modify, and adds the ability to take ownership of a file and change its ACLs. 
-
+///////////////////////////////
+WINDOWS SOFTWARE PACKAGE -.exe
+.MSI(microsoft install package)-A Microsoft install package or msi is used to guide a program called the Windows Installer in the installation, maintenance, and removal of programs on the Windows operating system.
 
 
 
