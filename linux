@@ -82,6 +82,14 @@ linux software package -.rpm for red hat,.deb for ubuntu
 -f: Allows you to specify the filename of the archive.
 
 tar -xzvf archive.tar.gz ?? unzip
+////////////////////////////////////
+package manager
+APT-advanced package tool
+sudo apt install gimp ??install package gimp
+sudo apt remove gimp ??remove gimp
+PPA(personal package archive)-is a software repository for uploading source package to built and published as apt.
+where are repository sources listed?/etc/apt/sources.list
+
   
 
 
