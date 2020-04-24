@@ -94,5 +94,6 @@ uninstall-package -name sysinternals
 ///////////////////////////
 sysinternals ?? this tool is used to monitor what is going while exe is installing
 orca.exe ??Orca.exe is a database table editor for creating and editing Windows Installer packages and merge modules.
-
+//////////////////
+devmgmt.msc ??to open device manager 
 
