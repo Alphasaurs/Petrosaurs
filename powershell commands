@@ -91,5 +91,8 @@ find-package sysinternals -includedependencies
 install-package -name sysinternals
 get-package -name sysinternals ??verify package is install
 uninstall-package -name sysinternals 
+///////////////////////////
+sysinternals ?? this tool is used to monitor what is going while exe is installing
+orca.exe ??Orca.exe is a database table editor for creating and editing Windows Installer packages and merge modules.
 
 
