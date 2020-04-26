@@ -16,6 +16,8 @@ df -h ??available space
 touch filename ??it will create new file if it is not there else it will change time of file
 head filename ??display first 10 elements
 head -4 filename ??display first 4 elements
+more filename ??display all file at once
+less filename ??display little and allow scrolling it is faster than more
 ////////////////////////
 NOTE - grep flags
 -r: search recursively
