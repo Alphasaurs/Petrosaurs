@@ -10,6 +10,8 @@ NOTE-learn emacs and vim as they are essential
 touch filename ??make new file
  mv /home/user/Images/Vacation.JPG . ??this command will move .jpg to current directory(. is used for that)
 rm -r directoryname ??delete non empty directory
+du -h ??displays and estimate the disk usage by files
+df -h ??available space
 ////////////////////////
 NOTE - grep flags
 -r: search recursively
