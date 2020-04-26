@@ -19,6 +19,7 @@ head -4 filename ??display first 4 elements
 more filename ??display all file at once
 less filename ??display little and allow scrolling it is faster than more
 wc filename ?? total number of lines, words and characters of all the files 
+cut -d " " -f1 filename ??cut(is used to  select sections of text from each line of files) this command print first column
 ////////////////////////
 NOTE - grep flags
 -r: search recursively
@@ -101,6 +102,7 @@ sudo apt install gimp ??install package gimp
 sudo apt remove gimp ??remove gimp
 PPA(personal package archive)-is a software repository for uploading source package to built and published as apt.
 where are repository sources listed?/etc/apt/sources.list
+
 
   
 
