@@ -27,6 +27,9 @@ NOTE - grep flags
 -e: match pattern
 --include and --exclude: include and exclude files in the search
 --include-dir and --exclude-dir: include or exclude directories in the search
+grep 'word' filename
+grep 'word' file1 file2 file3
+grep 'string1 string2'  filename
 //////////////////////////////////////////
 COMPUTER MANAGEMENT
 the name of the first user that gets created on a Linux machine, the OS superuser--root
