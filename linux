@@ -18,6 +18,7 @@ head filename ??display first 10 elements
 head -4 filename ??display first 4 elements
 more filename ??display all file at once
 less filename ??display little and allow scrolling it is faster than more
+wc filename ?? total number of lines, words and characters of all the files 
 ////////////////////////
 NOTE - grep flags
 -r: search recursively
