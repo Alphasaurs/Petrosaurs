@@ -102,7 +102,10 @@ sudo apt install gimp ??install package gimp
 sudo apt remove gimp ??remove gimp
 PPA(personal package archive)-is a software repository for uploading source package to built and published as apt.
 where are repository sources listed?/etc/apt/sources.list
+//////////////////////////////////
 
+uname -r  ??will tell the version of your kernel system
+/dev/sd*  ??is associated with masz storage devices
 
   
 
