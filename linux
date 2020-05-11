@@ -106,6 +106,17 @@ where are repository sources listed?/etc/apt/sources.list
 
 uname -r  ??will tell the version of your kernel system
 /dev/sd*  ??is associated with masz storage devices
+/////////
+mbr supports primary, extended and logical partitioning 
+disk partitioning in linux
+sudo parted -l ?? show all connected disks
+sudo parted -sdb ?? select 2nd disk
+mklabel gpt  ?? assigned label
+mkpart primary ext4 1MiB 5GiB
+quit ??
+sudo mkfs -t ext4 /dev/sdb1
+
+
 
   
 
