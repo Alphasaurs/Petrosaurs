@@ -58,7 +58,7 @@ Chocolatey-it's a place where all kinds of windows software packages live
  Character devices, like a keyboard or mouse, transmit data character by character.
  Block devices like USB drives, hard drives, and CD-ROMs transfer blocks of data. A data block is just a unit of data storage. 
  this devices are find in/dev in linux
-
+The disk names in Linux are alphabetical. /dev/sda is the first hard drive (the primary master), /dev/sdb is the second etc. The numbers refer to partitions, so /dev/sda1 is the first partition of the first drive.
 ///////////////
 NTFS - For windows and linux
 ext4 - for linux
