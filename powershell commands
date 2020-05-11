@@ -97,3 +97,6 @@ orca.exe ??Orca.exe is a database table editor for creating and editing Windows 
 //////////////////
 devmgmt.msc ??to open device manager 
 
+//////////////
+to format usb using cmd
+cmd.exe->diskpart->list disk->select disk_no->clean->create partition  primary->select partition 1->active->format FS=NTFS label=cool quick
