@@ -59,4 +59,7 @@ Chocolatey-it's a place where all kinds of windows software packages live
  Block devices like USB drives, hard drives, and CD-ROMs transfer blocks of data. A data block is just a unit of data storage. 
  this devices are find in/dev in linux
 
-
+///////////////
+NTFS - For windows and linux
+ext4 - for linux
+FAT32 - For windows, linux and mac but only 4GB
