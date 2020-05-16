@@ -100,3 +100,5 @@ devmgmt.msc ??to open device manager
 //////////////
 to format usb using cmd
 cmd.exe->diskpart->list disk->select disk_no->clean->create partition  primary->select partition 1->active->format FS=NTFS label=cool quick
+//////////////
+compress-archive filename1, filename2, filename3 file.zip
