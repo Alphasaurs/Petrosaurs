@@ -84,8 +84,9 @@ compress-archive -path D:\programming\cpp d:\yellow.zip   ?? zip file cpp to yel
 expand-archive -path D:\programming\cpp d:\yellow.zip ?? unzip file cpp to yellow.zip in other location
 //////////////////////////////////////////////////
 CHOCLATEY-Chocolatey is the package manager for Windows (like apt-get but for Windows)
-register-packagesource -name chocolatey -providername chocolatey -location http://chocolatey.org/api/v2  ??install chocolatey
+Register-PackageSource -Name chocolatey -ProviderName Chocolatey -Location http://chocolatey.org/api/v2/??install chocolatey
 get-packagesource ??see all packages
+Install-Package -Name vlc -Source chocolatey ?installing vlc
 following cmd will run if it is intslled
 find-package sysinternals -includedependencies
 install-package -name sysinternals
