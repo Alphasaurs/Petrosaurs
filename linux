@@ -5,6 +5,7 @@ ls -l ?additional information of directories with folder
 ls -la or ls -l-a ?all hidden files also
 ls -lh ?human readable
 ls -lsh ?sorted with time
+du ?disk space used by file
 mkdir my\java or mkdir "my java" or mkdir 'my java' or mkkdir my/ java ?? spaced folder name
 nano cool.txt ?? ^k-caret K i.e CTRL+K
 Emacs ??the extensible, customizable, self-documenting real-time display editor,
