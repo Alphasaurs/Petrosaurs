@@ -17,6 +17,7 @@ touch filename ??make new file
 rm -r directoryname ??delete non empty directory
 du -h ??displays and estimate the disk usage by files
 df -h ??available space
+man  ? manual ,exit by q 
 touch filename ??it will create new file if it is not there else it will change time of file
 head filename ??display first 10 elements
 head -4 filename ??display first 4 elements
