@@ -1,4 +1,4 @@
-Absolute path-is one that starts from the main directory.
+Absolute path-is one that starts from the main directory
 Relative path-is one that starts from the current directory.
 pwd-print working directory
 / is the root directory
